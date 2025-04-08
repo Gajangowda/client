@@ -26,7 +26,7 @@
 //     e.preventDefault();
 //     try {
 //       const res = await axios.post(
-//         `https://localhost:4242/api/v1/auth/register`,
+//         `https://backend-nlz9.onrender.com/api/v1/auth/register`,
 //         {
 //          name,
 //           email,
@@ -119,7 +119,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `https://localhost:4242/api/v1/auth/register`,
+        `https://backend-nlz9.onrender.com/api/v1/auth/register`,
         { name, email, password, cpassword }
       );
       if (res.data.success) {

@@ -138,7 +138,7 @@ const Product = () => {
   const [maxPrice, setMaxPrice] = useState("");
 
   useEffect(() => {
-    fetch('https://localhost:4242/api/products')
+    fetch('https://backend-nlz9.onrender.com/api/products')
       .then((response) => response.json())
       .then((data) => {
         console.log('Fetched Products:', data);
@@ -272,7 +272,7 @@ const Product = () => {
             className="bg-gray-40 shadow-lg p-4"
           >
             <img
-              src={`https://localhost:4242/${product.imageURL}`}
+              src={`https://backend-nlz9.onrender.com/${product.imageURL}`}
               alt={product.name}
               className="w-full h-40 object-cover rounded-t-lg"
             />

@@ -19,7 +19,7 @@ const CheckoutSuccess = () => {
   //       if (!orderId) {
   //         throw new Error('Order ID is not provided');
   //       }
-  //       const response = await fetch(`https://localhost:4242/api/orders/${orderId}`);
+  //       const response = await fetch(`https://backend-nlz9.onrender.com/api/orders/${orderId}`);
   //       if (!response.ok) {
   //         throw new Error('Failed to fetch order details');
   //       }

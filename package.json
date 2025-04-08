@@ -45,7 +45,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "proxy": "https://localhost:4242"
+    "proxy": "https://backend-nlz9.onrender.com"
   },
   "eslintConfig": {
     "extends": [

@@ -12,7 +12,7 @@ const WishlistContext = createContext();
 export const WishlistProvider = ({ children }) => {
   const [wishlist, setWishlist] = useState([]);
   const { auth } = useAuth();
-  const wishlistEndpoint = 'https://localhost:4242/api/wishlist';
+  const wishlistEndpoint = 'https://backend-nlz9.onrender.com/api/wishlist';
 
   useEffect(() => {
     if (auth && auth.user && auth.user._id) {
