@@ -135,7 +135,7 @@ const UserOrderDetails = () => {
 
     <div class="mt-6 flow-root sm:mt-8 container mx-auto p-4" >
     <div class="divide-y divide-gray-200 dark:divide-gray-700">
-    <h2 class="text-xl font-semibold text-gray-900 dark:text-white sm:text-2xl">User Orders</h2>
+    <h2 class="text-xl font-semibold text-gray-900 dark:text-black sm:text-2xl">User Orders</h2>
     {orders.map(order => (<div class="flex flex-wrap items-center gap-y-4 py-6" key={order._id}>
             <dl class="w-1/2 sm:w-1/4 lg:w-auto lg:flex-1">
               <dt class="text-base font-medium text-gray-500 dark:text-gray-400">Order ID:</dt>
